@@ -1,0 +1,27 @@
+CompileFlags:
+  Add:
+    - '-D__INTELLISENSE__'
+Diagnostics:
+  ClangTidy:
+    Add:
+      - 'bugprone-*'
+      - 'clang-analyzer-*'
+      - 'concurrency-*'
+      - 'cppcoreguidelines-*'
+      - 'misc-*'
+      - 'modernize-*'
+      - 'performance-*'
+      - 'portability-*'
+      - 'readability-*'
+    Remove:
+      - 'cppcoreguidelines-owning-memory'
+      - 'modernize-use-trailing-return-type'
+      - 'misc-use-internal-linkage'
+      - 'readability-convert-member-functions-to-static'
+    CheckOptions:
+      misc-unused-parameters.StrictMode: true
+      cppcoreguidelines-avoid-non-const-global-variables.AllowInternalLinkage: true
+InlayHints:
+  DeducedTypes: false
+  ParameterNames: false
+  BlockEnd: true

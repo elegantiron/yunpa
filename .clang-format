@@ -1,0 +1,74 @@
+AccessModifierOffset: -2
+AlignAfterOpenBracket: true
+AlignConsecutiveAssignments:
+  Enabled: true
+  AlignCompound: true
+  PadOperators: true
+AlignConsecutiveDeclarations:
+  Enabled: true
+  AlignFunctionDeclarations: true
+  AlignFunctionPointers: true
+AlignEscapedNewlines: LeftWithLastLine
+AlignOperands: AlignAfterOperator
+AlignTrailingComments:
+  Kind: Always
+AllowAllArgumentsOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowShortBlocksOnASingleLine: Empty
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortLambdasOnASingleLine: Empty
+AllowShortLoopsOnASingleLine: false
+AllowShortNamespacesOnASingleLine: false
+BinPackArguments: false
+BinPackLongBracedList: false
+BinPackParameters: OnePerLine
+BraceWrapping:
+  AfterCaseLabel: false
+  AfterClass: false
+  AfterControlStatement: Never
+  AfterEnum: false
+  AfterFunction: false
+  AfterNamespace: false
+  AfterStruct: false
+  AfterUnion: false
+  AfterExternBlock: false
+  BeforeCatch: false
+  BeforeElse: false
+  BeforeLambdaBody: false
+  BeforeWhile: false
+BreakAdjacentStringLiterals: true
+BreakAfterAttributes: Always
+BreakAfterReturnType: Automatic
+BreakBeforeBinaryOperators: All
+BreakBeforeBraces: Custom
+BreakBeforeConceptDeclarations: Always
+BreakBeforeTernaryOperators: true
+BreakBinaryOperations: RespectPrecedence
+BreakConstructorInitializers: AfterColon
+BreakInheritanceList: AfterColon
+BreakStringLiterals: true
+BreakTemplateDeclarations: true
+ColumnLimit: 80
+CompactNamespaces: false
+ContinuationIndentWidth: 2
+EmptyLineAfterAccessModifier: Never
+EmptyLineBeforeAccessModifier: LogicalBlock
+FixNamespaceComments: true
+IncludeBlocks: Regroup
+IndentWidth: 2
+InsertNewlineAtEOF: true
+KeepEmptyLines:
+  AtEndOfFile: false
+  AtStartOfBlock: false
+  AtStartOfFile: false
+MaxEmptyLinesToKeep: 1
+NamespaceIndentation: Inner
+PackConstructorInitializers: NextLine
+PointerAlignment: Left
+ReferenceAlignment: Pointer
+RemoveEmptyLinesInUnwrappedLines: true
+SeparateDefinitionBlocks: Always
+SortIncludes: true
+SortUsingDeclarations: Lexicographic
+UseTab: Never
